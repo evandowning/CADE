@@ -23,7 +23,7 @@ setup(
     setup_requires=_dependencies,
     install_requires=_dependencies,
     extras_require={
-        "tf": ["tensorflow==1.10.0"],
+        "tf": ["tensorflow==2.7.2"],
         "tf_gpu": ["tensorflow-gpu==1.12.0"],
     }
 )
