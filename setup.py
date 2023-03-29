@@ -2,7 +2,7 @@
 from setuptools import setup
 
 _dependencies = [
-    'numpy<=1.16.1,>=1.14.5',
+    'numpy>=1.14.5,<1.22.1',
     'scipy<=1.3.3,>=1.1.0',
     'scikit-learn<=0.23.2,>=0.21.3',
     'matplotlib==3.1.2',
